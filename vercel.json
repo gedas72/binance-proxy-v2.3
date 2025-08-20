@@ -1,8 +1,9 @@
+// vercel.json
 {
   "version": 2,
   "regions": ["fra1"],
   "functions": {
-    "api/*.js": { "runtime": "nodejs22.x", "memory": 128, "maxDuration": 10 }
+    "api/*.js": { "runtime": "nodejs20.x", "memory": 128, "maxDuration": 10 }
   },
   "rewrites": [
     { "source": "/api/ticker24h",    "destination": "/api/binance?endpoint=ticker/24hr" },
