@@ -8,9 +8,7 @@
     { "source": "/api/prices",       "destination": "/api/binance?endpoint=prices" },
     { "source": "/api/ping",         "destination": "/api/binance?endpoint=ping" },
     { "source": "/api/fundingRate",  "destination": "/api/binance?endpoint=fapi/v1/fundingRate" },
-    { "source": "/api/openInterest", "destination": "/api/binance?endpoint=futures/data/openInterestHist" }
+    { "source": "/api/openInterest", "destination": "/api/binance?endpoint=futures/data/openInterestHist" },
     { "source": "/api/liquidations", "destination": "/api/binance?endpoint=liquidations" }
-
-
   ]
 }
