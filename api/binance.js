@@ -50,7 +50,11 @@ function normalize(p) {
     'exchangeInfo': 'api/v3/exchangeInfo',
     'ping': 'api/v3/ping',
     'fapi/v1/fundingRate': 'fapi/v1/fundingRate',
+    'futures/data/openInterestHist': 'futures/data/openInterestHist',
+    'fapi/v1/fundingRate': 'fapi/v1/fundingRate',
     'futures/data/openInterestHist': 'futures/data/openInterestHist'
+};
+
   };
   return map[p] || p;
 }
