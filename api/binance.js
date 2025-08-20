@@ -52,9 +52,7 @@ function normalize(p) {
     'fapi/v1/fundingRate': 'fapi/v1/fundingRate',
     'futures/data/openInterestHist': 'futures/data/openInterestHist',
     'fapi/v1/fundingRate': 'fapi/v1/fundingRate',
-    'futures/data/openInterestHist': 'futures/data/openInterestHist',
-    'liquidations': 'futures/data/liquidationOrders',
-    'liquidationOrders': 'futures/data/liquidationOrders'
+    'futures/data/openInterestHist': 'futures/data/openInterestHist',  
 };
 
   };
