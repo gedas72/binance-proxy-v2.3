@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "regions": ["lhr1"],
   "rewrites": [
     { "source": "/api/ticker24h",    "destination": "/api/binance?endpoint=ticker24h" },
     { "source": "/api/klines",       "destination": "/api/binance?endpoint=klines" },
