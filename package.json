@@ -1,13 +1,8 @@
 {
-  "name": "binance-proxy-v2",
-  "version": "1.0.0",
+  "name": "binance-proxy",
   "private": true,
   "type": "module",
-  "engines": {
-    "node": ">=18"
-  },
-  "scripts": {
-    "dev": "vercel dev",
-    "test": "node -e \"console.log('ok')\""
-  }
+  "engines": { "node": ">=18" },
+  "scripts": { "dev": "vercel dev", "test": "node -e \"console.log('ok')\"" },
+  "dependencies": {}
 }
