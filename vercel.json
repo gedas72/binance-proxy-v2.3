@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "regions": ["cdg1"],
   "rewrites": [
-    { "source": "/api/ticker24h",    "destination": "/api/binance?endpoint=ticker/24hr" },
+    { "source": "/api/ticker24h",    "destination": "/api/binance?endpoint=ticker24h" },
     { "source": "/api/klines",       "destination": "/api/binance?endpoint=klines" },
     { "source": "/api/exchangeInfo", "destination": "/api/binance?endpoint=exchangeInfo" },
-    { "source": "/api/prices",       "destination": "/api/binance?endpoint=ticker/price" },
+    { "source": "/api/prices",       "destination": "/api/binance?endpoint=prices" },
     { "source": "/api/ping",         "destination": "/api/binance?endpoint=ping" },
     { "source": "/api/fundingRate",  "destination": "/api/binance?endpoint=fapi/v1/fundingRate" },
     { "source": "/api/openInterest", "destination": "/api/binance?endpoint=futures/data/openInterestHist" }
